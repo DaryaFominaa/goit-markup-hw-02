@@ -6,6 +6,7 @@
   --button-color--: #ffffff;
   --button-bcr-color--: #f5f4fa;
   --hero-bcr-color--: #2f303a;
+  --footer-text-color--: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -15,7 +16,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-h2 {
+.title.heading {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -79,6 +80,7 @@ ul {
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-align: center;
+  text-transform: uppercase;
 }
 .button {
   color: var(--title-text-color--);
@@ -167,8 +169,33 @@ footer {
   color: var(--accent-color--);
 }
 
-.contacts-list .link {
+.contacts-list .footer {
   font-style: normal;
   font-size: 14px;
   line-height: 1.7;
+  color: var(--footer-text-color--);
+}
+/* СТИЛИ ПОРТФОЛИО */
+.button.link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  border: transparent;
+}
+
+.portfolio a {
+  text-decoration: none;
+}
+.portfolio .title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-text-color--);
+}
+.portfolio .describtion {
+  font-size: 16px;
+  line-height: 1.88;
+  color: var(--primary-text-color--);
 }
